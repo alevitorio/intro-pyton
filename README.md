@@ -137,9 +137,4 @@ if idade >= 18:
     print(nome, "é maior de idade.")
 else:
     print(nome, "é menor de idade.")
-```
 
-Espero que esse material ajude você a conduzir sua aula de forma didática! Se precisar de mais alguma coisa, é só avisar. 📚✨
-``` 
-
-Você pode adaptar o conteúdo conforme necessário para atender às suas necessidades específicas. Boa sorte na aula!

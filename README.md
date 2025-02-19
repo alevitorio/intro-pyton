@@ -1,6 +1,3 @@
-Aqui está um exemplo de Markdown detalhado para sua aula de Python, com ícones e explicações sobre os conceitos básicos:
-
-```markdown
 # Introdução ao Python 🐍
 
 ## Comandos Básicos

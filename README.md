@@ -68,6 +68,16 @@ Podemos converter tipos de dados usando funções integradas:
 
 ### 4. Usando `print()` de Diferentes Modos 🖨️
 
+#### 4.1. Método Básico
+
+- Exibindo texto simples:
+
+  ```python
+  print("Olá, mundo!")
+  ```
+
+#### 4.2. Usando `sep` e `end`
+
 - **Separador**: Use o parâmetro `sep` para definir como os elementos são separados.
 
   ```python
@@ -79,6 +89,33 @@ Podemos converter tipos de dados usando funções integradas:
   ```python
   print("Olá", end=" ")
   print("mundo!")  # Olá mundo!
+  ```
+
+#### 4.3. Formatação com F-Strings
+
+- **F-strings**: Usando f-strings para interpolação de variáveis.
+
+  ```python
+  idade = 25
+  print(f"Eu tenho {idade} anos.")  # Eu tenho 25 anos.
+  ```
+
+#### 4.4. Formatação com `str.format()`
+
+- Usando o método `str.format()` para formatação.
+
+  ```python
+  nome = "Maria"
+  print("Olá, {}!".format(nome))  # Olá, Maria!
+  ```
+
+#### 4.5. Formatação com o operador `%`
+
+- Usando o operador `%` para formatação.
+
+  ```python
+  idade = 30
+  print("Você tem %d anos." % idade)  # Você tem 30 anos.
   ```
 
 ### 5. Operadores
@@ -125,16 +162,5 @@ if idade >= 18:
 
 ---
 
-## Exemplo Completo
 
-Aqui está um exemplo que utiliza todos os conceitos apresentados:
-
-```python
-nome = input("Qual é o seu nome? ")
-idade = int(input("Qual é a sua idade? "))
-
-if idade >= 18:
-    print(nome, "é maior de idade.")
-else:
-    print(nome, "é menor de idade.")
 
